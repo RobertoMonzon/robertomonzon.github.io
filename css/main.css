@@ -1,0 +1,346 @@
+*{
+    background-color: #09113A;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#languagepic{
+    align-items: left;
+}
+
+
+
+#parent{
+    position: absolute;
+}
+
+.ontainer-language,.navbar-brand,.bar-language{
+    background-color: #09113A;
+    padding-left: 60%;
+}
+
+h2{
+    color: white;
+}
+
+
+strong{
+    color: white;
+    font-size: 20px;
+}
+
+#navbar-cv{
+    background-color: #000000; padding-top: 10px; padding-bottom: 10px; border-color: aliceblue;
+}
+
+a{
+    background-color: black;
+}
+
+#btn1:hover{
+    background-color: rgb(13, 245, 245);
+}
+
+#btn2:hover{
+    background-color: rgb(255, 0, 255);
+}
+
+#btn3:hover{
+    background-color: rgb(60, 255, 0);
+}
+
+#btn4:hover{
+    background-color: rgb(255, 243, 8);
+}
+
+#btn5:hover{
+    background-color: rgb(4, 0, 255);
+}
+
+#btn6:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+#btn7:hover{
+    background-color: #FF9900;
+}
+
+footer{
+    background-color: black;
+}
+
+#profile{
+    padding: 50px;
+}
+
+#description{
+    width: 500px;
+    text-align: justify;
+}
+
+#myphoto{
+    width: 400px;
+}
+
+#description{
+    text-align: justify;
+}
+
+.download-cv{
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+}
+
+#school{
+    padding: 50px;
+    color: white;
+    padding-top: 100px;
+}
+
+
+
+.shrink img {
+    transition: 1s ease;
+    padding-bottom: 20px;
+    }
+    
+.shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+
+
+.container-experience{
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+
+}
+
+.row{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+.timeline-duties{
+    text-align: justify;
+}
+
+
+#projects{
+    color: white;
+    text-align: center;
+}
+
+.div-projects{
+    width: 100%;
+    position:center;
+}
+
+.container-projects{
+    padding-top: 100px;
+    width: 1000px;
+    position: center;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+
+#carousel-projects{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+
+}
+
+
+.descript-project {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #09113A;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .75s ease;
+    background-color: #09113A;
+  }
+
+.carousel-item:hover .overlay {
+    opacity: 0.95;
+  }
+
+#div-hardskills{
+    background-color: #09113A;
+    padding-bottom: 100px;
+    width: 100%;
+    padding-top: 100px;
+    position: center;
+    margin: auto;
+}
+
+.icon:hover{
+    animation: shaker 0.8s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes shaker {
+    10%,90% { transform: translate(-1px, -2px)}
+    20%,80% { transform: translate(3px, 0px) }
+    30%,50%,70% { transform: translate(-3px, 2px) }
+    40%,60% { transform: translate(1px, -1px)}
+  }
+
+  .cotainer-experience{
+    width: 100%;
+    background-color: #09113A;
+  }
+
+  .div-experience{
+    background-color: #000000;
+    text-align: center;
+    padding-bottom: 100px;
+    width: 60%;
+    position: center;
+    margin: auto;
+  }
+
+.soft-skills{
+    text-align: center;
+    background-color: #09113A;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    width: 100%;
+    position: center;
+    margin: auto;
+}
+
+
+
+.div-hobbies{
+    text-align: center;
+    background-color: #09113A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    position: center;
+    margin: auto;
+}
+
+.banner{
+    width: 100%;
+}
+
+#feedback {
+	height: 0px;
+	width: 85px;
+	position: fixed;
+	right: 0;
+	top: 50%;
+	z-index: 1000;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+
+}
+
+#feedback a {
+	display: block;
+	background:#000;
+	height: 52px;
+	padding-top: 10px;
+	width: 155px;
+	text-align: center;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#feedback a:hover {
+	background:#00495d;
+}
+
+@media (max-width: 500px) {
+    .timeline-duties{
+        width: 300%;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 12px;
+    }
+
+    .container-experience{
+        width: 100%;
+        padding-left: 150px;
+        padding-right: 250px;
+        padding-top: 10px;
+    
+    }
+
+    #description{
+        padding-right: 200px ;
+    }
+
+    .date_job{
+        text-align:left;
+        font-size: 15px;
+        width: 450%;
+        padding-right: 70px;
+    }
+
+    .company-name , .job{
+        width: 300%;
+        text-align: center;
+    }
+
+    .card-text, .card-year{
+        font-size: 15px;
+    }
+    .campus-master,.card-text-master{
+        font-size: 15px;
+    }
+
+    .card-year-generation{
+        font-size: 15px;
+        padding-bottom: 7px;
+    }
+
+    .div-projects, .container-projects{
+        width: 100%;
+    }
+
+    .descript-project{
+        font-size: 10px;
+        width: 60%;
+    }
+
+    .project-name{
+        font-size: 11px;
+        padding-bottom: 20px;
+    }
+
+}
